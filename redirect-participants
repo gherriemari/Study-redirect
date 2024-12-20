@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting...</title>
+  <script>
+    window.onload = function() {
+      // Define the possible study links
+      const studyLinks = [
+        "https://run.pavlovia.org/sibangi/silviaversion2/?feedback_error=no&col_version=white&group=control&participant=A001",
+        "https://run.pavlovia.org/sibangi/silviaversion2?feedback_error=no&col_version=white&group=overtrained&participant=A002",
+      ];
+      // Randomly select one of the links
+      const randomLink = studyLinks[  ];
+      // Redirect the participant
+      window.location.href = randomLink;
+    };
+  </script>
+</head>
+<body>
+  <p>Redirecting to your study...</p>
+</body>
+</html>
