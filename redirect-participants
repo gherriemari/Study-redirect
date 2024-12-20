@@ -9,8 +9,10 @@
         "https://run.pavlovia.org/sibangi/silviaversion2/?feedback_error=no&col_version=white&group=control&participant=A001",
         "https://run.pavlovia.org/sibangi/silviaversion2?feedback_error=no&col_version=white&group=overtrained&participant=A002",
       ];
-      // Randomly select one of the links
-      const randomLink = studyLinks[  ];
+      // Generate a random index (0 or 1)
+      const randomIndex = Math.floor(Math.random() * studyLinks.length);
+      // Select the link using the random index
+      const randomLink = studyLinks[randomIndex];
       // Redirect the participant
       window.location.href = randomLink;
     };
